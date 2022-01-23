@@ -76,7 +76,7 @@ img {
 }
 
 .surfboard-section {
-  background: url("/img/arnaud-mesureur-17OxKyThYPo-unsplash 1.svg") top no-repeat;
+  background: url("../img/surfboard_ocean.jpeg") top no-repeat;
   background-size: cover;
   color: #FFFFFF;
   height: 100vh;
@@ -406,7 +406,7 @@ img {
 }
 
 .order-section {
-  background: url("../../img/surfer.jpeg") center no-repeat;
+  background: url("../img/surfer.jpeg") center no-repeat;
   background-size: cover;
   -webkit-box-shadow: inset 0 0 0 1000px rgba(43, 43, 43, 0.4);
           box-shadow: inset 0 0 0 1000px rgba(43, 43, 43, 0.4);
@@ -493,7 +493,7 @@ img {
   border-radius: 0;
 }
 .radio--checkbox .radio__visible:before {
-  background: url("../../img/checked.png") center center no-repeat;
+  background: url("../img/checked.png") center center no-repeat;
 }
 
 .radio__elem {
