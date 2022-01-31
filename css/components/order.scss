@@ -1,13 +1,13 @@
 .order-section {
   background: url("../img/surfer.jpeg") center no-repeat ;
   background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(43, 43, 43, .4);
+  box-shadow: inset 0 0 0 rem(1000px) rgba(43, 43, 43, .4);
   height: 100vh;
-  min-height: 650px;
+  min-height: rem(650px);
   
 
 }
 
 .order__title {
-    margin-bottom: 84px;
+    margin-bottom: rem(84px);
   }

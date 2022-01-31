@@ -1,9 +1,15 @@
 .surfboard-section {
-  background: url("../img/surfboard_ocean.jpeg") top no-repeat;
+  background: url("../img/surfboard_ocean.jpeg") center center no-repeat;
   background-size: cover;
   color: #FFFFFF;
   height: 100vh;
-  min-height: 650px;
+  min-height: rem(650px);
+  
+
+  @include tablets {
+    background-position: 70%;
+  }
+
 }
 
 .surfboard__container {
@@ -11,26 +17,57 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding-top: 24px 0 70px;
+  padding-top: rem(24px) 0 rem(70px);
+
 }
 
 .surfboard__main-title {
-  font-size: 48px;
+  font-size: rem(48px);
   line-height: 1.1;
   font-weight: 700;
-  margin-bottom: 17px;
+  margin-bottom: rem(17px);
   text-transform: uppercase;
+
+
+  @include phones {
+    font-size: rem(40px);
+  }
 }
 
 .surfboard__title-desc {
-  font-style: 21px;
+  font-style: rem(21px);
   font-weight: 400;
-  margin-bottom: 39px;
+  margin-bottom: rem(39px);
   padding-right: 10%;
+
+
+  @include tablets {
+    padding-left: rem(26px);
+  }
 }
 
 .surfboard__title-section {
   width: 46%;
+
+  @include tablets {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
   
 }
 
+
+.surfboard__icons-section {
+  margin-bottom: rem(70px);
+}
+
+.surfboard__icons-section {
+  @include tablets {
+    display: none;
+  }
+}

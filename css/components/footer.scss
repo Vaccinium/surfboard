@@ -1,0 +1,35 @@
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: rem(23px);
+  background: #fff;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @include phones {
+    flex-direction: column;
+  }
+}
+
+.socials__list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+.socials__item {
+  margin-right: rem(14px);
+}
+
+
+.socials__link {
+  text-decoration: none;
+}

@@ -1,0 +1,11 @@
+.contacts {
+  font-style: 400;
+  font-size: rem(21px);
+
+  @include phones {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
