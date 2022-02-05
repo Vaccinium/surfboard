@@ -392,6 +392,9 @@ img {
     padding: 0;
     margin-bottom: 1.0555555556rem;
   }
+  .benefits__item:last-child {
+    margin-bottom: 0;
+  }
 }
 .benefits__item:before {
   content: url("../../img/separator.png");
