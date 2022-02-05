@@ -9,6 +9,10 @@
     display: inline-flex;
   }
 
+  @include phones {
+    display: inline-flex;
+  }
+
 }
 
 .hamburger__plank {

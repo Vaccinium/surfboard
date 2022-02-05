@@ -865,6 +865,13 @@ img {
     display: inline-flex;
   }
 }
+@media screen and (max-width: 480px) {
+  .hamburger {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
 
 .hamburger__plank {
   display: block;
