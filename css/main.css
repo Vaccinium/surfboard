@@ -971,9 +971,7 @@ img {
 
 .parameters__dropdown {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   margin-top: -90px;
   margin-left: 90px;
 }
