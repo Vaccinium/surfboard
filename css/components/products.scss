@@ -1,0 +1,154 @@
+.product__container {
+  display: flex;
+
+@include tablets{
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}}
+
+.products__col {
+  display:flex;
+  text-align: center;
+
+}
+
+
+.product__image-elem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: rem(420px);
+  max-height: rem(540px);
+  margin-right: rem(55px);
+  background: url("/img/spot.png") center center no-repeat;
+
+  @include tablets {
+    max-width: rem(318px);
+    max-height: rem(417px);
+    margin-right: 0;
+  }
+
+  @include phones {
+    max-width: rem(252px);
+    max-height: rem(332px);
+    margin-right: 0;
+  }
+}
+
+
+.product__parameters {
+  position: relative;
+
+  @include tablets {
+    display: none;
+  }
+  @include phones {
+    display: none;
+  }
+}
+
+.parameters__dropdown {
+  position: absolute;
+  display: flex;
+  margin-top:  -90px;
+  margin-left: 90px;
+}
+
+.parameters__container {
+  content: "";
+  width: rem(273px);
+  height: rem(291px);
+  background-color: #d5d5d5;
+}
+
+.parameters__button-icon {
+  width: rem(91px);
+  height: rem(91px);
+  background: #3A587E;
+  border-radius: 0,25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: rem(52px);
+}
+
+.parameters__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.parameters__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parameters__desc {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 10.625 rem;
+  font-size: rem(16px);
+  font-weight: 500;
+  
+
+}
+
+.products__title {
+  font-weight: 700;
+  font-size: rem(36px);
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: rem(24px);
+
+
+  @include tablets {
+    font-size: rem(30px);
+  }
+}
+
+.products__text {
+  margin-bottom: rem(24px);
+
+  @include tablets {
+    margin-bottom: rem(14px);
+    padding-left: rem(60px);
+    padding-right: rem(60px);
+  }
+}
+
+.products__values {
+  display: flex;
+}
+
+.products__values-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: rem(55px);
+
+  @include tablets {
+
+  }
+}
+
+.products__values-char {
+  font-weight: 700;
+  color: black;
+}
+
+.products__container-cost {
+  display: flex;
+  align-items: center;
+}
+
+
+.product__price {
+  font-size: rem(60px);
+  font-weight: 300;
+  margin-right: rem(28px);
+  color: black;
+}
+
