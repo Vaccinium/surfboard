@@ -48,54 +48,7 @@
   }
 }
 
-.parameters__dropdown {
-  position: absolute;
-  display: none;
-  margin-top:  -90px;
-  margin-left: 90px;
-}
 
-.parameters__container {
-  content: "";
-  width: rem(273px);
-  height: rem(291px);
-  background-color: #d5d5d5;
-}
-
-.parameters__button-icon {
-  width: rem(91px);
-  height: rem(91px);
-  background: #3A587E;
-  border-radius: 0,25rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: rem(52px);
-}
-
-.parameters__list {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.parameters__title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.parameters__desc {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  width: 10.625 rem;
-  font-size: rem(16px);
-  font-weight: 500;
-  
-
-}
 
 .products__title {
   font-weight: 700;

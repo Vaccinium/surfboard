@@ -1,0 +1,32 @@
+.team--version--mobile {
+  display: none;
+
+  @include phones {
+    display: flex;
+  }
+}
+
+.team--version--desktop {
+  display: flex;
+
+  @include phones {
+    display: none;
+  }
+}
+
+
+.team__item {
+  max-width: rem(220px);
+  min-height: rem(290px);
+  margin-right: rem(20px);
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+
+.team__member-pic {
+  max-width: 100%;
+
+}

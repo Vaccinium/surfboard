@@ -1,0 +1,19 @@
+.fullscreen-menu {
+  background: #313131;
+}
+
+.menu--vertical {
+  font-size: rem(36px);
+  color: #fff;
+  display: none;
+  text-align: center;
+
+  @include tablets {
+    display: block;
+  }
+
+
+  @include phones {
+    display: block;
+  }
+}
